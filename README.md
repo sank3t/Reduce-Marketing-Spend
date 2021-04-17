@@ -12,6 +12,11 @@ The hackathon is hosted by [HackerEarth](https://www.hackerearth.com/).
   * [Data Source](#data-source)
   * [Data Dictionary](#data-dictionary)
 
+
+* [Notebooks](#Notebooks)
+  * [Data Cleaning](#data-cleaning)
+
+
 ### Problem Statement
 Reduce the spend on marketing campaigns and aim only the customers who will benefit from the product.
 
@@ -64,3 +69,7 @@ The dataset is downloaded from [here](https://www.hackerearth.com/challenges/com
 | Resource              | Represents whether your company has enough resources to satisfy a lead's requirements                                  |
 | Internal_rating       | Represents a rating (1-5) given to a lead                                                                              |
 | Success_probability   | Represents the probability that a lead will buy a product or onboard                                                   |
+
+### Notebooks
+
+* [Data Cleaning](https://nbviewer.jupyter.org/github/sank3t/Reduce-Marketing-Spend/blob/main/Data%20Cleaning.ipynb)
