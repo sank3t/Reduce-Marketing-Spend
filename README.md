@@ -7,6 +7,9 @@ The hackathon is hosted by [HackerEarth](https://www.hackerearth.com/).
   * [Task](#task)
   * [Evaluation Metric](#evaluation-metric)
 
+* [Glossary](#glossary)
+  * [Lead](#lead)
+  * [Call Level](#call-level)
 
 * [Dataset Description](#dataset-description)
   * [Data Source](#data-source)
@@ -35,6 +38,20 @@ Predicting the probability percentage that the client will purchase a product ba
 ```python
 score = max(0 , 100-np.sqrt(mean_squared_error(actual, predicted)))
 ```
+
+### Glossary
+
+#### Lead
+An individual or organization with an interest in what you are selling.
+
+#### Call Level
+
+| Level   | Call Type    |
+|:--------|:-------------|
+| Level 1 | Introductory |
+| Level 2 | Demo         |
+| Level 3 | Pre-sales    |
+
 
 ### Dataset Description
 
@@ -73,3 +90,8 @@ The dataset is downloaded from [here](https://www.hackerearth.com/challenges/com
 ### Notebooks
 
 * [Data Cleaning](https://nbviewer.jupyter.org/github/sank3t/Reduce-Marketing-Spend/blob/main/Data%20Cleaning.ipynb)
+
+
+### References
+
+[1] https://www.leadsquared.com/what-is-a-lead/
