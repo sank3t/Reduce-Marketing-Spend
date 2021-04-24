@@ -95,3 +95,5 @@ The dataset is downloaded from [here](https://www.hackerearth.com/challenges/com
 ### References
 
 [1] https://www.leadsquared.com/what-is-a-lead/
+
+[2] http://www.alanwood.net/unicode/fontsbyrange.html
