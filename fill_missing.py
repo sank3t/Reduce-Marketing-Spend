@@ -19,3 +19,15 @@ def fill_geography(flag):
         return 'India'
     else:
         return 'USA'
+
+
+def fill_deal_value(df, df_proba):
+    imputed_values = []
+
+    for index, row in df.iterrows():
+        proba_filter = (df_proba['industry'] == row['industry']) & (df_proba['pitch'] == row['pitch'])
+        probability = df_proba.loc[proba_filter, 'median'].values[0]
+        imputed_values.append(row['weighted_amount'] * probability)
+
+    return imputed_values
+
