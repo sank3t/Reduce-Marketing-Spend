@@ -15,7 +15,6 @@ The hackathon is hosted by [HackerEarth](https://www.hackerearth.com/).
   * [Data Source](#data-source)
   * [Data Dictionary](#data-dictionary)
 
-
 * [Notebooks](#Notebooks)
   * [Data Cleaning](#data-cleaning)
 
@@ -86,6 +85,12 @@ The dataset is downloaded from [here](https://www.hackerearth.com/challenges/com
 | Resource              | Represents whether your company has enough resources to satisfy a lead's requirements                                  |
 | Internal_rating       | Represents a rating (1-5) given to a lead                                                                              |
 | Success_probability   | Represents the probability that a lead will buy a product or onboard                                                   |
+
+#### Data types
+
+| column     | data_type   |
+|:-----------|:------------|
+| deal_value | Continuous  |
 
 ### Notebooks
 
